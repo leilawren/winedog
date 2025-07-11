@@ -12,6 +12,13 @@ This is also the first script I've ever really written for other people to use, 
 All this script really does is download an earlier wine package to workaround the current issues with Fitgirl Repacks on wine-10. 
 Then it makes a new wine prefix, runs the setup.exe, then optionally runs winetricks.
 
+# Dependencies 
+wine
+winetricks
+curl
+tar
+zstd
+
 # How to Use
 1. Download the script from this repo
 2. Copy the script to the directory of the game you want to install. (Where the setup.exe is located)

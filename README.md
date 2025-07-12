@@ -25,4 +25,5 @@ sudo pacman -S --needed wine winetricks curl tar zstd
 
 Winedog will drop a script called runner.sh in your game files. Run or edit this script to control launch options.
 
-
+# What winedog doesn't do
+Winedog is a tool to make installing games using vanilla wine fast and easy. This script will not resolve in prefix dependencies for you. To quickly run winetricks for your game after it's installed you can run the winetricks.sh script winedog drops in your game directory.

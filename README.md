@@ -16,7 +16,7 @@ Then it makes a new wine prefix, runs the setup.exe, then optionally runs winetr
 sudo pacman -S --needed wine winetricks curl tar zstd
 
 # How to Use
-1. Download the script from this repo
+1. Download the script or git clone this repository.
 2. Copy the script to the directory of the game you want to install. (Where the setup.exe is located)
 3. Ensure the script is set to be executable. (chmod +x winedog-fit.sh)
 4. Open a terminal inside the game installer directory.

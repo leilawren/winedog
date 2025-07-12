@@ -23,7 +23,7 @@ sudo pacman -S --needed wine winetricks curl tar zstd
 5. run the script: ./winedog-fit.sh
 6. Follow the instructions in your terminal.
 
-Winedog will drop a script called runner.sh in your game files. Run or edit this script to control launch options.
+Winedog will drop the scripts runner.sh and winetricks.sh in your game files. You can run runner.sh to launch your game. Run winetricks.sh to launch the winetricks gui if needed.
 
 # What winedog doesn't do
-Winedog is a tool to make installing games using vanilla wine fast and easy. This script will not resolve in prefix dependencies for you. To quickly run winetricks for your game after it's installed you can run the winetricks.sh script winedog drops in your game directory.
+Winedog is a tool to make installing repacks with vanilla wine fast and easy. This script will not resolve in prefix dependencies for you (winetricks dlls, etc). If a game doesn't launch, I reccomend doing some research on the required components for that specific game. A good starting point is actually the fitgirl installer. If it prompts you to install vcrun2022 for example, install that with winedog or the winetricks.sh. Good luck!

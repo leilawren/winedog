@@ -1,9 +1,6 @@
 # winedog
 A bash helper script for installing archived games, specifically Fitgirl Repacks
 
-# Disclaimer
-I do not condone piracy. This script exists to help people install games that are abandoned and no longer accessible. If you find a game you like, and you are able to purchase it, do that. Developers deserve your support.
-
 # General Info
 The current verison of this script is intended for arch-based systems (any system that uses pacman).
 I wrote this because I'm not a big fan of using lutris, and I have had some issues installing fitgirl repacks on the latest version of wine.
@@ -27,3 +24,6 @@ Winedog will drop the scripts runner.sh and winetricks.sh in your game files. Yo
 
 # What winedog doesn't do
 Winedog is a tool to make installing repacks with vanilla wine fast and easy. This script will not resolve in prefix dependencies for you (winetricks dlls, etc). If a game doesn't launch, I reccomend doing some research on the required components for that specific game. A good starting point is actually the fitgirl installer. If it prompts you to install vcrun2022 for example, install that with winedog or the winetricks.sh. Good luck!
+
+# Legal Disclaimer
+I do not condone piracy. This script exists to help people install games that are abandoned and no longer accessible. If you find a game you like, and you are able to purchase it, do that. Developers deserve your support.

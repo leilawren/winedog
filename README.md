@@ -26,4 +26,4 @@ Winedog will drop the scripts runner.sh and winetricks.sh in your game files. Yo
 Winedog is a tool to make installing repacks with vanilla wine fast and easy. This script will not resolve in prefix dependencies for you (winetricks dlls, etc). If a game doesn't launch, I reccomend doing some research on the required components for that specific game. A good starting point is actually the fitgirl installer. If it prompts you to install vcrun2022 for example, install that with winedog or the winetricks.sh. Good luck!
 
 # Legal Disclaimer
-I do not condone piracy. This script exists to help people install games that are abandoned and no longer accessible. If you find a game you like, and you are able to purchase it, do that. Developers deserve your support.
+I do not condone piracy. This script exists to help people install games that are abandoned and no longer accessible through conventional platforms. If you find a game you like, and you are able to purchase it, please do that. Developers deserve your support.

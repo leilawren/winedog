@@ -23,5 +23,6 @@ sudo pacman -S --needed wine winetricks curl tar zstd
 5. run the script: ./winedog-fit.sh
 6. Follow the instructions in your terminal.
 
+Winedog will drop a script called runner.sh in your game files. Run or edit this script to control launch options.
 
 

@@ -11,9 +11,9 @@ All this script really does is download an earlier wine package to workaround th
 Then it makes a new wine prefix, runs the setup.exe, then optionally runs winetricks.
 
 # Dependencies 
-sudo pacman -S --needed wine winetricks curl tar zstd
-gamescope (optional)
-custom wine (optional)
+- sudo pacman -S --needed wine winetricks curl tar zstd
+- gamescope (optional)
+- custom wine (optional)
 
 # How to Use
 1. Download the script or git clone this repository.

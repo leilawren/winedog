@@ -150,7 +150,7 @@ EOF
 chmod +x runner.sh
 chmod +x winetricks.sh
 
-echo -e "${GREEN}Okay! Setup complete - Try launching your game from runner.sh${RESET}"
+echo -e "${GREEN}Setup complete - Try launching your game from runner.sh${RESET}"
 echo -e "${PINK}Winedog loves you${RESET}"
 
 exit

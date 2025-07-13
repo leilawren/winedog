@@ -1,5 +1,6 @@
-# winedog
-A bash helper script for installing archived games, specifically Fitgirl Repacks
+# winedog-dev
+Winedog's development branch~! 
+This is where I add and test new functionality.
 
 # General Info
 The current verison of this script is intended for arch-based systems (any system that uses pacman).
@@ -11,6 +12,8 @@ Then it makes a new wine prefix, runs the setup.exe, then optionally runs winetr
 
 # Dependencies 
 sudo pacman -S --needed wine winetricks curl tar zstd
+gamescope (optional)
+custom wine (optional)
 
 # How to Use
 1. Download the script or git clone this repository.
